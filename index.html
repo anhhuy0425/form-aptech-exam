@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Anh Huy</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<script src="validator.js" defer></script>
+</head>
+<body>
+	<div class="main">
+		<form action="" class="form" id="form">
+		<h1 class="heading scale-in-hor-center">FORM ❤️ USER</h3>
+		<p class="desc scale-in-hor-center">NGUYEN DO ANH HUY - C2307L1</p>
+	
+		<div class="spacer"></div>
+		<h2 class="focus-in-expand" style="color: #d8b90a; font-weight: bold; font-size: 15px; margin-bottom: 5px;">CONTACT DETAILS</h2>
+		
+		<div class="form-group">
+			<label for="fullname" class="form-label">Name *</label>
+			<input id="fullname" name="fullname" type="text" placeholder="Nhập tên của bạn" class="form-control">
+			<span class="form-message"></span>
+		</div>
+	
+		<div class="form-group error">
+			<label for="phone" class="form-label">Phone</label>
+			<input id="phone" name="phone" type="tel" placeholder="Nhập số điện thoại của bạn" class="form-control">
+			<span class="form-message"></span>
+		</div>
+	
+		<div class="form-group error">
+			<label for="email" class="form-label">Email *</label>
+			<input id="email" name="email" type="email" placeholder="Nhập email của bạn" class="form-control" >
+			<span class="form-message"></span>
+		</div>
+
+	<h2 class="focus-in-expand" style="color: #d8b90a; font-weight: bold; font-size: 15px; margin: 15px 0px;">PERSONAL INFORMATION</h2>
+		
+		<div class="form-group">
+			<label for="birthday" class="form-label">Birth Date *</label>
+			<input id="birthday" name="birthday" type="date" class="form-control" min="" max="">
+			<span class="form-message"></span>
+		</div>
+
+		<div class="form-group">
+			<label for="age" class="form-label">Age *</label>
+			<input id="age" name="age" placeholder="Nhập tuổi của bạn" type="text" class="form-control" required>
+			<span class="form-message"></span>
+		</div>
+
+		<div class="form-group">
+			<label for="gender" class="form-label">Gender</label>
+			<select name="gender" id="gender" class="form-control"></select>
+			<span class="form-message"></span>
+		</div>
+
+		<div class="form-group">
+			<label for="car" class="form-label">When buying a car, what do you care about? *</label>
+			<input id="car" name="car" placeholder="Nhập câu trả lời của bạn" type="textarea" class="form-textarea" >
+			<span class="form-message"></span>
+		</div>
+
+		<h2 class="focus-in-expand" style="color: #d8b90a; font-weight: bold; font-size: 15px; margin: 15px 0px;">PICK YOUR FAVORITE CAR BRAND</h2>
+
+		<div class="form-check">
+			<input type="checkbox" name="BMW" id="">
+			<label for="BMW">BMW</label>
+			<input type="checkbox" name="mercedes" id="">
+			<label for="mercedes">Mercedes</label>
+			<input type="checkbox" name="vinfast" id="">
+			<label for="vinfast">Vinfast</label>
+			<input type="checkbox" name="mazda" id=""> 
+			<label for="mazda">Mazda</label>
+			<input type="checkbox" name="ford" id="">
+			<label for="ford">Ford</label>
+			<input type="checkbox" name="porsche" id="">
+			<label for="porsche">Porsche</label>
+			<input type="checkbox" name="lexus" id="">
+			<label for="lexus">Lexus</label>
+			<input type="checkbox" name="hyundai" id="">
+			<label for="hyundai">Hyundai</label>
+			<span class="form-message"></span>
+		</div>
+		<button class="form-submit heartbeat" id="submit">Gửi thông tin</button>
+		</form>
+	</div>
+	
+</body>
+</html>

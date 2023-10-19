@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root{
+    --succes-color: #269159;
+    --error-color: #da3518;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #333;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+.main {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.form {
+    width: 500px;
+    min-height: 100px;
+    padding: 32px 24px;
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    margin: 24px;
+    align-self: center;
+    box-shadow: 0 10px 5px 0 rgba(51, 62, 73, 0.1);
+}
+.form .heading {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+.form .desc {
+    text-align: center;
+    color: #636d77;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    line-height: 2.4rem;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+.form-label,
+.form-message {
+    text-align: left;
+}
+
+.form-label {
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+}
+
+.form-control {
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #375b80;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.4rem;
+}
+
+.error span.form-message{
+    color: var(--error-color);
+}
+
+.form-check {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-self: center;
+    align-content: space-around;
+    padding: 30px 0px;
+    border: 3px solid #b3b3b3;
+    border-radius: 3px;
+}
+
+.form-check input{
+    height: 15px;
+    width: 15px;
+    margin:10px;
+    margin-right:0px 5px;
+}
+
+.form-check label{
+    display: flex;
+    align-self: center;
+    font-style: normal;
+    font-size: 15px;
+    margin: 0;
+    text-align: right;
+}
+
+.form-textarea {
+    height: 100px;
+    text-align: center;
+}
+
+.form-control:hover {
+    border-color: #1dbfaf;
+}
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.form-submit {
+    outline: none;
+    background-color: #1dbfaf;
+    margin-top: 12px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #1ac7b6;
+}
+
+.spacer {
+    margin-top: 36px;
+}
